@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+.first {background-color: #f2f2f2;}
+.first .fen-nav ul {height: 45px;}
+.first .fen-nav li {float: left; line-height: 45px; height: 45px; font-size: 12px; color: #686868;}
+.fen-nav li span {display: block; margin: 0 6px;}
+.fen-nav li a {color: #686868;}
+.fen-nav li .big {font-size: 18px; font-weight: bold; padding-left: 6px;}
+.first .content {height: 489px; border-bottom: solid 1px #f2f2f2; background-color: #fff;}
+.first .con-left {padding: 10px 15px 0 15px; width: 352px; float: left;}
+.con-left .big-pic {position: relative;}
+.con-left .big-pic img {display: block;}
+.con-left .big-pic .box1 {border: solid 1px #eee; position: relative;}
+.con-left .big-pic .box1 .zoom {position: absolute; left: 0; top: 0; width: 236.25px; height: 236.25px; background-color: rgba(255,255,0,.2); display: none;}
+.con-left .big-pic .box2 {position: absolute; left: 352px; top: 0; width: 540px; height: 540px; overflow: hidden; display: none; z-index: 10;}
+.con-left .big-pic .box2 img {position: absolute; left: 0; top: 0;}
+.con-left .pic-list {height: 54px; padding-top: 14px;}
+.con-left .pic-list li {float: left;}
+.con-left .pic-list span {height: 54px;}
+.con-left .pic-list span img {margin-top: 14px; display: block;}
+.con-left .pic-list a {width: 50px; height: 50px; border: solid 2px transparent; display: block; margin: 0 5px;}
+.con-left .pic-list .ac {border-color: #ab5653;}
+.con-left .pic-list a img {width: 50px; display: block;}
+.con-left .con-left-bot {padding-top: 9px; height: 48px; line-height: 48px; font-size: 12px; color: #666;}
+.con-left .con-left-bot > span {float: left; padding-left: 20px;}
+.con-left .con-left-bot > div {float: right; padding-right: 20px;}
+.con-left .con-left-bot > div a {color: #666; padding-left: 18px; margin-left: 10px; position: relative;}
+.con-left .con-left-bot > div a i {position: absolute; left: 0; top: 0; width: 16px; height: 16px; background: url("../images/newicon20140910.png") no-repeat -160px -293px;}
+.con-left .con-left-bot > div a .i2 {background-position: -175px -293px;}
+
+.first .con-mid {width: 588px; float: left}
+.con-mid .title {padding-top: 14px;  padding-bottom: 7px; line-height: 24px;}
+.con-mid .title h3 {color: #606165; font-size: 15px;}
+.con-mid .title h4 {color: #d83643; font-size: 13px; font-weight: normal;}
+.con-mid .price {height: 50px; background-color: #f7f7f7;}
+.price .p-left {height: 50px; line-height: 50px; color: #666; font-size: 12px; padding-left: 12px; float: left;}
+.p-left .space {letter-spacing: 8px;}
+.p-left .num i {font-size: 16px; font-weight: bold; color: #f13242; font-family: "微软雅黑"}
+.price .p-right {position: relative; float: right; line-height: 18px; padding-right: 15px; padding-left: 12px; margin-top: 8px; width: 60px; font-size: 12px;}
+.price .p-right::after {content: ""; position: absolute; left: 0; top: 0; height: 36px; width: 1px; background-color: #e7e7e7;}
+.price .p-right .num2 {color: #1b5b89;}
+.con-mid .serves {height: 77px; padding-top: 6px; border-bottom: dashed 1px #dcdcdc;}
+.con-mid .serves .send {padding: 10px 0 0 12px; line-height: 25px;}
+.con-mid .serves .send-in {float: left; margin-right: 5px; position: relative;}
+.serves .space {letter-spacing: 8px;}
+.serves .addr {cursor: pointer;}
+.serves .address {height: 23px; line-height: 23px; border: solid 1px #ccc; padding-right: 18px; position: relative}
+.serves .address span {padding: 4px;}
+.serves .address i {position: absolute; right: 0; top: 10px; width: 18px; height: 7px; font-size: 30px; text-align: center; font-family: Consolas; overflow: hidden}
+.serves .address s {position: absolute; top: -10px; left: 0;}
+.serves .addr:hover s {top: -3px;}
+.serves .addr:hover .address {border-bottom: none; z-index: 2; background-color: #fff}
+.serves .addr:hover .address-total {display: block;}
+.serves .address-total {width: 352px; padding-left: 4px; padding-right: 4px; border: solid 1px #ccc; position: absolute; top: 22px; background: #fff; display: none;}
+.serves .address-total h4 {font-size: 12px; padding-top: 15px;}
+.serves .address-total ul {}
+.serves .address-total ul .ac {border: solid 2px #edd28b; border-bottom-color: #fff;}
+.serves .address-total li {display: inline-block; margin-right: 5px; border: solid 1px #ddd; padding: 2px 10px; color: #005aa0; font-size: 14px; font-weight: 700;}
+.address-total .tab {border-top: solid 2px #edd28b; margin-top: -2px;}
+.address-total .tabCon {padding: 10px 0; display: none;}
+.address-total .show {display: block;}
+.address-total .tabCon dl {float: left; width: 83px; margin-right: 5px; }
+.address-total .tabCon dl a {color: #666; padding: 2px;}
+.address-total #tab-add-list dl a:hover {background-color: #c61620; color: #fff;}
+
+
+.serves b {font-size: 14px;}
+.serves i {color: #a9aca5;}
+.serves .space2 {letter-spacing: 28px;}
+.serves .a-red {color: #c4424a;}
+.serves time {color: #a9aca5;}
+.con-mid .size {padding-top: 16px; height: 128px;}
+.size p {padding-left: 12px; line-height: 30px; float: left;}
+.size .size-list {float: left; width: 460px; padding-left: 10px;}
+.size-list li {line-height: 24px; height: 24px; padding: 5px; border: solid 1px #c9c9c9; margin: 0 8px 4px 0; float: left; cursor: pointer;}
+.size-list span {color: #b1b9bc;}
+.size-list .ac {border: solid 1px #a85255;}
+.con-mid .shop {padding-left: 10px;}
+.shop form {float: left; position: relative; width: 50px; height: 36px;}
+.shop form input {width: 33px; height: 34px; line-height: 34px; text-align: center; border: solid 1px #ccc;}
+.shop .addBtn {display: block;position: absolute; top: 0; right: 0; width: 15px; height: 18px; border: solid 1px #ccc; border-left: none; background-color: #f1f1f1;}
+.shop .subBtn {display: block;position: absolute; bottom: 0; right: 0; width: 15px; height: 18px; border: solid 1px #ccc; border-left: none; border-top: none; background-color: #f1f1f1;}
+.shop .join {float: left; margin-left: 10px; display: block; width: 135px; height: 36px; background: url("../images/p-btns.png") no-repeat;}
+.shop p {padding-top: 25px;}
+
+.con-right {float: left; width: 200px; margin-left: 20px;}
+.con-right .c-right-top {height: 80px; border-top: solid 1px #eee; border-bottom: solid 1px #eee; margin-top: 20px;}
+.con-right .c-right-top a {display: block; margin-left: 65px;}
+.con-right .c-right-top img {display: block;}
+.con-right .c-right-title {padding: 15px 0;}
+.con-right .c-right-title p {height: 20px; line-height: 20px; padding-left: 10px; color: #005091;}
+.con-right .c-right-title p span {width: 48px; height: 14px; line-height: 14px; border-radius: 3px; color: #fff; background-color: #eb2d39; padding: 3px; margin-left: 8px;}
+.con-right .c-right-list {}
+.con-right .c-right-list li {float: left; width: 90px; height: 28px; line-height: 28px; border: 1px solid #cbccd0; margin-right: 7px; margin-bottom: 12px; background-color: #f9f9f9;}
+.con-right .c-right-list li i { background: #f9f9f9 url("../images/popScore.png") no-repeat 4px 5px; width: 26px; height: 28px; float: left;}
+.con-right .c-right-list li .bg2 {width: 33px; background-position: -120px 5px;}
+.con-right .c-right-list li .bg3 {width: 33px; background-position: -95px 5px;}
+.con-right .c-right-list li .bg4 {width: 33px; background-position: -68px 5px;}
+.con-right .c-right-list li a {color: #666;}
+.con-right .c-right-bot {padding-left: 10px;}
+.con-right .c-right-bot p {height: 34px; line-height: 34px;}
+.con-right .c-right-bot span {padding-left: 20px; color: #6f779e;}
+.con-right .c-right-bot .s1 {margin-right: 50px; background: url("../images/夜间_03.jpg") no-repeat;}
+.con-right .c-right-bot .s2 {background: url("../images/shoutixiang.png") no-repeat;}
+
+.two {height: 265px; border: solid 1px #dedede; border-top: none; margin-top: 10px;}
+.two ul {height: 29px; background-color: #f7f7f7; border-bottom: solid 1px #dcdcdc; border-top: solid 2px #999; position: relative;}
+.two ul li {float: left; height: 29px; line-height: 29px; border-right: solid 1px #dcdcdc; font-size: 14px; font-weight: bold; padding: 0 12px; position: relative;}
+.two ul .change {height: 33px; line-height: 33px; background-color: #fff; border-top: solid 2px #a85255; top: -5px; color: #e43941;}
+.two .tab {}
+.two .tab .tabList {display: none; padding-left: 5px; padding-top: 30px;}
+.two .tab .show {display: block;}
+.tabList .pic {width: 120px; margin: 0 40px; text-align: center; float: left;}
+.tabList .pic img {display: block; width: 120px;}
+.tabList .pic p {padding-top: 15px;}
+.tabList .pic span {color: #eb363b;}

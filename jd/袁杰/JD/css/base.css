@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0; padding: 0}
+body {font-family: "微软雅黑"; font-size: 12px; color: #666;}
+ul {list-style: none;}
+a {text-decoration: none; color: #666}
+input, select, button {outline: none;}
+img input {border: none;}
+i, s {font-style: normal; text-decoration: none; font-family: Consolas;}
+
+#html a:hover {color: #c81623;}
+
+.clear {clear: both;}
+.inner {width: 1210px; margin: 0 auto;}
+.top {background-color: #f1f1f1; height: 30px;}
+.top li {position: relative;}
+.top .dw {padding-right: 10px;}
+.top .cw {padding-right: 25px;}
+.top .phone {padding-left: 18px;}
+.top i {font-size: 15px; height: 6px; position: absolute; right: 8px; top: 15px; overflow: hidden;}
+.top i s {font-size: 15px; line-height: 15px; text-decoration: none; position: relative; top: -8px;}
+.t-left {float: left;}
+.t-left span {font-size: 12px; line-height: 30px; color: #666;}
+.t-right {float: right;}
+.t-right li {float: left;}
+.t-right .c-left {background: url(../images/jd2015img.png) no-repeat 0px 5px;}
+.t-right li span {color: #ddd; margin-right: 10px;}
+.t-right li a {font-size: 12px; line-height: 30px; color: #666;}
+.t-right .a-red {color: #c81623;}
+.t-right li a:hover {color: #c81623;}
+
+.header {height: 144px; border-bottom: solid 2px #b1191a;}
+.h-content {padding-top: 25px; height: 60px;}
+.h-logo {float: left; margin-right: 90px;}
+.h-logo img {display: block;}
+.h-mid {float: left; margin-right: 104px;}
+.h-mid form {height: 36px; padding-bottom: 4px;}
+.h-mid .f-text {height: 32px; width: 454px; border: solid 2px #b61d1d; float: left;}
+.h-mid .f-sub {width: 80px; height: 36px; display: block; background-color: #b61d1d; border: none; float: left; cursor: pointer; line-height: 36px; font-size: 16px; color: #fff;}
+.h-mid li {float: left; margin-right: 11px;}
+.h-mid li a {line-height: 20px; height: 20px; color: #666;}
+.h-mid li a:hover {color: #c81623;}
+.h-mid li .a-red {color: #c81623;}
+.h-right {float: left; width: 139px; height: 34px; border: solid 1px #dfdfdf; position: relative;}
+.h-right a {line-height: 34px; color: #666; padding-left: 44px;}
+.h-right .c-left {position: absolute; left: 18px; top: 10px; background: url(../images/jd2015img.png) no-repeat 0 -59px; height: 16px; width: 18px;}
+.h-right .c-right {position: absolute; line-height: 34px; right: 11px;}
+.h-right .c-count {position: absolute; top: -4px; right: 19px; background-color: #c81623; width: 16px; height: 14px; line-height: 14px; color: #fff; text-align: center; border-radius: 6px 6px 6px 0;}
+.h-nav {padding-top: 15px;}
+.h-nav li {float: left;}
+.h-nav .fen {width: 200px; height: 44px; line-height: 44px; background-color: #b1191a; font-size: 16px; color: #fff; padding-left: 10px;}
+.h-nav .fen::after {content: ""; }
+.h-nav li a {line-height: 44px; font-size: 16px; color: #333; padding: 0 20px;}
+.h-nav li a:hover {color: #c81623;}
+
+.footer {padding-top: 20px;}
+.f-header {height: 94px; background-color: #f5f5f5;}
+.f-header ul {padding-left: 10px;}
+.f-header li {float: left; height: 44px; width: 300px; background: url("../images/product_home_1.0.0.png") no-repeat 0 -135px; margin-top: 25px;}
+.f-header .i2 {background-position: 0 -199px;}
+.f-header .i3 {background-position: 0 -263px;}
+.f-header .i4 {background-position: 0 -327px;}
+.f-mid {padding-top: 15px; padding-bottom: 30px; border-bottom: solid 1px #e5e5e5;}
+.f-mid dl {float: left; width: 200px;}
+.f-mid .last {width: 165px;}
+.f-mid dt {font-size: 16px; height: 35px; line-height: 35px;}
+.f-mid dd {height: 20px; line-height: 20px;}
+.f-mid dd a {color: #666;}
+.f-mid .map {float: left; width: 193px; padding-left: 17px; height: 170px; background: url("../images/20130330B_1.png") no-repeat 0 -131px;}
+.f-mid .map h4 {font-size: 16px; height: 35px; line-height: 35px; padding-bottom: 10px;}
+.f-mid .map p {line-height: 18px;}
+.f-mid .map a {float: right;}
+.f-bot {padding-top: 20px; padding-bottom: 30px;}
+.f-bot .links {text-align: center;}
+.f-bot .links span {margin: 0 12px;}
+.f-bot .info {padding: 10px 0;}
+.f-bot .info p {text-align: center; height: 20px; line-height: 20px;}
+.f-bot .info span {margin: 0 8px; color: #999;}
+.f-bot .info a {color: #999;}
+.f-bot .auth {text-align: center;}
+.f-bot .auth a {display: inline-block; margin: 0 6px;}
+.f-bot .auth img {display: block;}
+
